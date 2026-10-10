@@ -24,7 +24,7 @@ def hello():
   return render_template("hello.html")
 
 # 웹 서버 실행: 외부 접속 허용(host="0.0.0.0"), 5000번 포트 사용, 코드 수정 시 자동 재시작(debug=True)
-app.run(host="0.0.0.0", port=5000, debug=True)
+# app.run(host="0.0.0.0", port=5000, debug=True)
  
 '''
 터미널 실행 명령어: python main.py
